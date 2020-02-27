@@ -5,11 +5,250 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hot-Gadgets</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
+
+    <div class="container">
+
+        <!---Nav Bar start-->
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">
+                <img src="images/logo.png" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link active" href="#carouselExampleIndicators">Home<span
+                            class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link" href="#product">Product</a>
+                    <a class="nav-item nav-link" href="#about us">About Us</a>
+                    <a class="nav-item nav-link" href="#contact us">Contact Us</a>
+
+                </div>
+            </div>
+        </nav>
+
+        <!---Nav bar End-->
+
+        <!----Carousel Start-->
+        <div id="carouselExampleIndicators" class="carousel slide orange-bg" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row align-items-center">
+                        <div class="col-md-7">
+                            <h1>Mackboock Pro</h1>
+                            <p>
+                                Retina Display A big, beautiful workspace. For doing big, beautiful work.
+                            </p>
+
+                            <button class="buy-now-button">BY NOW →</button>
+                        </div>
+                        <div class="col-md-5">
+                            <img src="images/banner-products/product-1.png" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="carousel-item">
+                    <div class="row align-items-center">
+                        <div class="col-md-7">
+                            <h1>Google Home(White Slate)</h1>
+                            <p>
+                                Help is here. Meet Google Home. Hands-free help from the Google Assistant.
+                            </p>
+
+                            <button class="buy-now-button">BY NOW →</button>
+                        </div>
+                        <div class="col-md-5">
+                            <img src="images/banner-products/slider-1.png" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+
+                </div>
+                <div class="carousel-item">
+                    <div class="row align-items-center">
+                        <div class="col-md-7">
+                            <h1>Jbu Speaker Black</h1>
+                            <p>
+                                JBL charge 3 mini Stealth Waterproof Portable Bluetooth Speaker with Rich Deep Bass , Without Mic (clone)
+                            </p>
+
+                            <button class="buy-now-button">BY NOW →</button>
+                        </div>
+                        <div class="col-md-5">
+                            <img src="images/banner-products/slider-3.png" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+        <!---Carousel End-->
+
+        <!---Product Smartphone area Start-->
+        <div class="container smartphone" id="product">
+            <div class="stext">
+                <h2>Smartphone</h2>
+                <h5>See All</h5>
+            </div><br /><br />
+            <div class="card-deck">
+                <div class="card">
+                    <img src="images/phone/phone-1.png" class="card-img-top" alt="..." />
+                    <div class="card-body">
+                        <h5 class="card-title">Redmi Note 7 Pro</h5>
+                        <p class="card-text">
+                            Released 2019, March 186g, 8.1mm thickness Android 9.0, up to Android 10.0; MIUI 11 64GB/128GB storage, microSDXC
+                        </p>
+                        <h5>$699</h5>
+                    </div>
+                    <div class="card-footer">
+                        <button class="buy-now-button">BY NOW →</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/phone/phone-2.png" class="card-img-top" alt="..." />
+                    <div class="card-body">
+                        <h5 class="card-title">iPhone 11Pro</h5>
+                        <p class="card-text">
+                            Released 2019, September 188g, 8.1mm thickness iOS 13, up to iOS 13.3 64GB/256GB/512GB storage, no card slot
+                        </p>
+                        <h5>$999</h5>
+                    </div>
+                    <div class="card-footer">
+                        <button class="buy-now-button">BY NOW →</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/phone/phone-3.png" class="card-img-top" alt="..." />
+                    <div class="card-body">
+                        <h5 class="card-title">Samsung Galaxy Note10+</h5>
+                        <p class="card-text">
+                            Released 2019, August 196g, 7.9mm thickness Android 9.0, up to Android 10.0; One UI 2 256GB/512GB storage, microSDXC
+                        </p>
+                        <h5>$799</h5>
+                    </div>
+                    <div class="card-footer">
+                        <button class="buy-now-button">BY NOW →</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!---Product Smartphone area End-->
+
+        <!---Product Laptop area Start-->
+        <div class="container smartphone" id="product">
+            <div class="stext">
+                <h2>Laptop</h2>
+                <h5>See All</h5>
+            </div><br /><br />
+            <div class="card-deck">
+                <div class="card">
+                    <img src="images/laptop/product-1.png" class="card-img-top" alt="..." />
+                    <div class="card-body">
+                        <h5 class="card-title">Asus VivoBook</h5>
+                        <p class="card-text">
+                            The ASUS VivoBook Pro 15 is a slim and lightweight high-performance laptop that’s powered by a 7th Generation Intel® Core™ processor. It features a 4K UHD display with 100% sRGB color gamut.
+                        </p>
+                        <h5>$999</h5>
+                    </div>
+                    <div class="card-footer">
+                        <button class="buy-now-button">BY NOW →</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/laptop/product-2.png" class="card-img-top" alt="..." />
+                    <div class="card-body">
+                        <h5 class="card-title">Razer Blade 15</h5>
+                        <p class="card-text">
+                            Razer Blade 15 Core i7 9th Gen 15.6″ Full HD Gaming Laptop with GTX 1660 Ti 6GB Graphics Intel Core i7-9750H Processor (12M Cache, 2.60 GHz up to 4.50 GHz) 15.6" FHD Matte 144Hz Refresh Rate 16GB DDR4 Ram 256GB PCIe SSD+1TB HDD
+                        </p>
+                        <h5>$2799</h5>
+                    </div>
+                    <div class="card-footer">
+                        <button class="buy-now-button">BY NOW →</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/laptop/product-3.png" class="card-img-top" alt="..." />
+                    <div class="card-body">
+                        <h5 class="card-title">Xiaomi Mi Notebook Pro</h5>
+                        <p class="card-text">
+                            Xiaomi Mi Notebook Pro 15.6 inch A cost-effective Notebook which supports fingerprint recognition. Equipped with a 15.6 inch 1920 x 1080 display, powered by Intel Core i5-8250U Quad Core processor.
+                        </p>
+                        <h5>$1269</h5>
+                    </div>
+                    <div class="card-footer">
+                        <button class="buy-now-button">BY NOW →</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!---Product Laptop area End-->
+
+        <!---Categories Start-->
+        <div class="categories">
+            <h2>Categories</h2>
+            <hr height="5%" width="14%" color="#f3971b" />
+
+
+            <div class="row align-items-center">
+
+                <div class="row align-items-center">
+
+                    <div class="col-md-6">
+                        <img src="images/Categories/bag.png" alt=""><br />
+                        <br />
+                        <h4>Bag</h4>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="images/Categories/perfume.png" alt="...">
+                        <br /><br />
+                        <h4>Beauty</h4>
+                        <img src="images/Categories/shoe.png" alt="">
+                        <br /><br />
+                        <h4>Shoes</h4>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <img src="images/Categories/pale-order.png" alt="...">
+                </div>
+            </div>
+        </div>
+        <!---Categories End-->
+    </div>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
 </body>
 
 </html>
